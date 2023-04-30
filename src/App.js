@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import BotCollection from "./Components/BotCollection";
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <BotCollection />
+    </>
   );
 }
 
