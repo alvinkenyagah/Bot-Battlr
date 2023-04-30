@@ -21,13 +21,16 @@ export default function BotCollection() {
       .then((res) => res.json())
       .then(() => {
         setBots((prevBots) => prevBots.filter((bot) => bot.id !== botId));
-      })
-      .catch((error) => console.error("Error deleting bot: ", error));
-  }
-  
 
+        setBotArmy((prevArmy) => prevArmy.filter((bot) => bot.id !== botId));
+      })
+      .catch((error) => console.log(error));
+  }
   useEffect(() => {
     getBots();
+    const botArmyFromStorage =
+      JSON.parse(localStorage.getItem("botArmy")) || [];
+    setBotArmy(botArmyFromStorage);
   }, []);
 
   function enlistBot(bot) {
@@ -35,10 +38,15 @@ export default function BotCollection() {
       return;
     }
     setBotArmy([...botArmy, bot]);
+    localStorage.setItem("botArmy", JSON.stringify([...botArmy, bot]));
   }
 
   function removeBot(bot) {
     setBotArmy(botArmy.filter((b) => b.id !== bot.id));
+    localStorage.setItem(
+      "botArmy",
+      JSON.stringify(botArmy.filter((b) => b.id !== bot.id))
+    );
   }
 
   return (
