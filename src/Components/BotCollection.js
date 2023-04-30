@@ -58,8 +58,9 @@ export default function BotCollection() {
           <div className="bot-card" key={bot.id} onClick={() => enlistBot(bot)}>
             <img src={bot.avatar_url} alt="Bot Avatar" />
             <h3>{bot.name}</h3>
-            <p>
+            <p style={{fontWeight:"bold"}}>
               {/* {bot.catchphrase} */}
+              Class: {bot.bot_class}
               <br />
               Health: {bot.health}
               <br />

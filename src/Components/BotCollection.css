@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #c9bff0;
+  background-color: #dcd7ec;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
@@ -19,12 +19,12 @@
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  background-color: whitesmoke;
 }
 
 .bot-info {
   text-align: center;
   font-size: 1rem;
-  line-height: 1.5;
 }
 
 
@@ -35,7 +35,7 @@
    
     justify-content: space-between;
     padding: 1rem;
-    background-color: #c9bff0;
+    background-color: #e0dee9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
   }
