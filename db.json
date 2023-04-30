@@ -1,18 +1,6 @@
 {
   "bots": [
     {
-      "id": 121,
-      "name": "wa-81",
-      "health": 49,
-      "damage": 81,
-      "armor": 39,
-      "bot_class": "Assault",
-      "catchphrase": "1010100000001001101101111100100011000010",
-      "avatar_url": "https://robohash.org/adipisciconsequaturnostrum.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.213Z",
-      "updated_at": "2018-10-02T19:55:11.213Z"
-    },
-    {
       "id": 122,
       "name": "xa-49",
       "health": 67,

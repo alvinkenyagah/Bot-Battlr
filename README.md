@@ -1,5 +1,20 @@
 # Bot-Battlr
 
+# Description
+
+Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army! This is our app.
+
+### Features
+
+<ul>
+
+<li>A user is able to See profiles of all bots rendered.</li>
+<li>A user is able to Add an individual bot to their bot army.Once a bot is listed the user cannot enlist a bot again. </li>
+<li>A user is able to release a bot from their army by clicking on it</li>
+<li>Discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot both from the backend and from the frontend.</li>
+
+</ul>
+
 ## MIT License
 
 Copyright (c) 2023 alvinkenyagah
