@@ -67,7 +67,7 @@ export default function BotCollection() {
               <br />
               Armor: {bot.armor}
             </p>
-            <button onClick={() => deletebot(bot.id)}>X</button>
+            <button onClick={() => deletebot(bot.id)} className="delete-button">X</button>
           </div>
         ))}
       </div>
