@@ -15,6 +15,16 @@ Welcome to Bot Battlr, the one and only spot in the known universe where you can
 
 </ul>
 
+## Installation 
+
+<ol>
+<li>git clone https://github.com/alvinkenyagah/Bot-Battlr.git</li>
+<li>cd Bot-Battlr</li>
+<li>npm install</li>
+<li>npm start</li>
+
+</ol>
+
 ## MIT License
 
 Copyright (c) 2023 alvinkenyagah
