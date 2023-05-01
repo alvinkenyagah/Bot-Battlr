@@ -16,7 +16,7 @@ export default function BotArmy({ botArmy, removeBot }) {
                 <img src={bot.avatar_url} alt="Avatar" style={{width:'240px'}} />
                 <h3>{bot.name}</h3>
                 <p>
-              {/* {bot.catchphrase} */}
+              {bot.catchphrase} <br/>
               Class: {bot.bot_class}
               <br />
               Health: {bot.health}
