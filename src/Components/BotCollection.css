@@ -4,28 +4,36 @@
   grid-gap: 1rem;
 }
 
+
+
+
 .bot-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
-  background-color: #dcd7ec;
+  padding: 0.1rem; 
+  background-color: #edebf3;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
+.bot-info {
+  text-align: center;
+  font-size: 0.2rem; 
+}
+
+
+
+
+
 .bot-card img {
-  width: 100%;
+  width: 60%;
   height: auto;
   margin-bottom: 1rem;
   background-color: whitesmoke;
 }
 
-.bot-info {
-  text-align: center;
-  font-size: 1rem;
-}
 
 
 
