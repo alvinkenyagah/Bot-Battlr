@@ -2,11 +2,6 @@ import "./App.css";
 import BotCollection from "./Components/BotCollection";
 
 function App() {
-  return (
-    <>
-      <BotCollection />
-    </>
-  );
+  return (<BotCollection /> );
 }
-
 export default App;
